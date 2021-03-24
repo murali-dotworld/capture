@@ -1,0 +1,5 @@
+1.sudo apt update
+2.sudo apt-get install python-pip 
+3.sudo apt-get install python-smbus python-dev 
+4.sudo apt-get install python-serial
+5.sudo pip install pathlib	

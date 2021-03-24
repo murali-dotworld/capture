@@ -1,0 +1,199 @@
+flash refreshed
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->1
+serial data->7
+capture method called
+start
+sensed
+recv : OK
+Traceback (most recent call last):
+  File "main.py", line 89, in operation
+    sendImage("raw.jpg")
+  File "main.py", line 158, in sendImage
+    shutil.move(img_name, os.path.join(mnt_path,transfer_fname))
+  File "/usr/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/usr/lib/python2.7/shutil.py", line 154, in copy2
+    copystat(src, dst)
+  File "/usr/lib/python2.7/shutil.py", line 120, in copystat
+    os.chmod(dst, mode)
+OSError: [Errno 1] Operation not permitted: '/mnt/usb_share/image.jpg'
+image file deletion in mnt
+image file deletion in local
+flash refreshed
+serial data->7
+capture method called
+start
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+sensed
+recv : OK
+Traceback (most recent call last):
+  File "main.py", line 89, in operation
+    sendImage("raw.jpg")
+  File "main.py", line 158, in sendImage
+    shutil.move(img_name, os.path.join(mnt_path,transfer_fname))
+  File "/usr/lib/python2.7/shutil.py", line 325, in move
+    copy2(src, real_dst)
+  File "/usr/lib/python2.7/shutil.py", line 154, in copy2
+    copystat(src, dst)
+  File "/usr/lib/python2.7/shutil.py", line 120, in copystat
+    os.chmod(dst, mode)
+OSError: [Errno 1] Operation not permitted: '/mnt/usb_share/image.jpg'
